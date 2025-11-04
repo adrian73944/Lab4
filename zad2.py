@@ -1,0 +1,14 @@
+#a)
+lista=["Adrian","Jakub","Dawid","Kacper"]
+lista.sort()
+print(lista)
+#b)
+lista.append("Paweł")
+lista.append("Darek")
+usunieta_osob=lista.pop()
+print(usunieta_osob)
+lista.insert(2,"Marek")
+print(lista)
+lista.reverse()
+lista1=lista*2
+print(lista1)
