@@ -1,5 +1,3 @@
-from itertools import count
-
 stopnie = (
  "Szeregowy",
  "Kapral",
@@ -17,4 +15,5 @@ major_index=stopnie.index("Major")
 print(major_index)
 #c)
 Pułkownik_wstepowanie=("Pułkownik" in stopnie)
+
 print(Pułkownik_wstepowanie)
